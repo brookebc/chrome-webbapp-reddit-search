@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Search for reddits",
+  "description": "This extension allows you to Search for reddits through the browser.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "star-icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+
+   "permissions": [
+    "<all_urls>"
+  ]
+}
